@@ -6,7 +6,7 @@ num = "0123456789"
 special = "@#$%&*"
 
 # pass_len=random.randint(8,13)  #without User INput
-pass_len = int(input("Enter Password Length"))
+pass_len = int(input("Enter Password Length : "))
 
 # length of password by 50-30-20 formula
 alpha_len = pass_len//2
